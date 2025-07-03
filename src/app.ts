@@ -54,7 +54,7 @@ app.get('/health', (req: Request, res: Response) => {
 
 // Basic route
 app.get('/', (req: Request, res: Response) => {
-  res.send('PTE AI Backend API is running...');
+  res.send('PTEbyDEE Backend API is running...');
 });
 
 // Mount all routes
