@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "npx tsc && npx prisma generate && node dist/server.js",
     "dev": "nodemon",
     "build": "tsc",
     "prisma:generate": "npx prisma generate",
